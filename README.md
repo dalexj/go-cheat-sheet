@@ -66,3 +66,11 @@ for condition {
   // loop until condition is false
 }
 ```
+
+## Arrays
+
+```go
+fiveInts  := []int{0, 1, 2, 3, 4}
+fiveZeros := [5]int
+fiveInts[4] = 9
+```
