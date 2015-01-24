@@ -38,5 +38,31 @@ g, h := 4, 334
 14 / 5            // 2
 14.0 / 5          // 2.8
 "hello" + "world" // "helloworld"
+```
 
+## Conditionals
+
+```go
+if something{
+  // do stuff
+} else if anotherThing{
+  // do stuff
+} else {
+  //do stuff
+}
+```
+
+## Loops
+
+```go
+for {
+  // loop forever (until a break)
+}
+for i := 0; i < 10; i++ {
+  // loop 10 times
+  // i is 0-9
+}
+for condition {
+  // loop until condition is false
+}
 ```
