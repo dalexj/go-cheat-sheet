@@ -14,7 +14,7 @@ func main() {
 }
 ```
 
-## The Type System
+## Variables
 
 In general: `var var_name type = value`
 
@@ -25,5 +25,18 @@ var a int = 85
 var b string = "hello"
 c := 146
 d := "world"
+var e, f int = 5, 8
+g, h := 4, 334
 ```
 
+## Operations
+
+```go
+1 + 4             // 5
+3 - 8             // -5
+7 * 4             // 28
+14 / 5            // 2
+14.0 / 5          // 2.8
+"hello" + "world" // "helloworld"
+
+```
