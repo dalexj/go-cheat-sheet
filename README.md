@@ -82,6 +82,24 @@ for condition {
 }
 ```
 
+## Ranges
+
+```go
+// Iterating over slices
+nums := []int{1, 2, 3}
+for i, num := range nums {
+  if num == 2 {
+    fmt.Println("Index:", i) // Index: 1
+  }
+}
+  
+// Iterating over maps
+kvs := map[string]string{"Danny":"Awesome", "Alex":"Okay"}
+for k, v := range kvs {
+  fmt.Printf("%s is %s\n", k, v) // Danny is Awesome /n Alex is Okay
+}                                
+```
+
 ## Arrays
 
 ```go
