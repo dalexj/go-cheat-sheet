@@ -102,6 +102,8 @@ fiveInts[2:] // [2,3,4]
 
 ## Structs
 
+On struct creation, the multiline format requires a `,` at the end of the line
+
 ```go
 // Create the type struct
 type Human struct {
@@ -114,19 +116,8 @@ h := Human{
   Name: "Danny",
   Age:  21,
   }
+h2 := Human{ Name: "Alex", Age: 16 }
   
 // Display the struct (import "fmt")
 fmt.Printf("Name: %s", h.Name)
-```
-
-## Maps
-Similar to hashes or dicts
-```go
-// Empty map: make(map[key-type]value-type)
-m := map[string]int{"one": 1, "two": 2}
-
-m["three"] = 3
-m["four"] = 4
-
-fmt.Println(m) // map[one:1, two:2, three:3, four:4]
 ```
