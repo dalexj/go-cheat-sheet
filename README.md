@@ -52,6 +52,21 @@ if something{
 }
 ```
 
+## Switches
+
+```go
+// import "time"
+t := time.Now()
+switch {
+case t.Hour() < 10:
+  fmt.Println("Breakfast Time")
+case t.Hour() > 10, t.Hour() < 12:
+  fmt.Println("Second Breakfast Time")
+default:
+  fmt.Println("Inferior Time")
+  }
+```
+
 ## Loops
 
 ```go
