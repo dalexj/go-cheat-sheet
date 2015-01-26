@@ -93,3 +93,15 @@ h := Human{
 // Display the struct (import "fmt")
 fmt.Printf("Name: %s", h.Name)
 ```
+
+## Maps
+Similar to hashes or dicts
+```go
+// Empty map: make(map[key-type]value-type)
+m := map[string]int{"one": 1, "two": 2}
+
+m["three"] = 3
+m["four"] = 4
+
+fmt.Println(m) // map[one:1, two:2, three:3, four:4]
+```
