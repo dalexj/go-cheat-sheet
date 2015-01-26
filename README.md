@@ -70,7 +70,7 @@ for condition {
 ## Arrays
 
 ```go
-fiveInts  := []int{0, 1, 2, 3, 4}
+fiveInts  := []int{0, 1, 2, 3, 4} // this might be a slice, not an array
 fiveZeros := [5]int
 fiveInts[4] = 9
 ```
