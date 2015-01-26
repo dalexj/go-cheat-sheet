@@ -74,3 +74,22 @@ fiveInts  := []int{0, 1, 2, 3, 4}
 fiveZeros := [5]int
 fiveInts[4] = 9
 ```
+
+## Structs
+
+```go
+// Create the type struct
+type Human struct {
+  Name string
+  Age  int
+}
+
+// Use the struct
+h := Human{
+  Name: "Danny",
+  Age:  21,
+  }
+  
+// Display the struct (import "fmt")
+fmt.Printf("Name: %s", h.Name)
+```
