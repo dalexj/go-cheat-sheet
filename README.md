@@ -70,9 +70,19 @@ for condition {
 ## Arrays
 
 ```go
-fiveInts  := []int{0, 1, 2, 3, 4} // this might be a slice, not an array
+// Arrays are fixed in length 
 fiveZeros := [5]int
 fiveInts[4] = 9
+```
+
+## Slices
+
+```go
+// Same as an array but flexible in length
+fiveInts  := []int{0, 1, 2, 3, 4}
+fiveInts[:2] // [0,1]
+fiveInts[:]  // [0,1,2,3,4]
+fiveInts[2:] // [2,3,4]
 ```
 
 ## Structs
