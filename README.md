@@ -92,18 +92,24 @@ for i, num := range nums {
     fmt.Println("Index:", i) // Index: 1
   }
 }
-  
+
+// Use an underscore to tell the Go compiler you don't intend to use a variable
+nums := []int{1, 2, 3}
+for _, num := range nums {
+  fmt.Println(num)
+}
+
 // Iterating over maps
 kvs := map[string]string{"Danny":"Awesome", "Alex":"Okay"}
 for k, v := range kvs {
   fmt.Printf("%s is %s\n", k, v) // Danny is Awesome /n Alex is Okay
-}                                
+}
 ```
 
 ## Arrays
 
 ```go
-// Arrays are fixed in length 
+// Arrays are fixed in length
 fiveZeros := [5]int
 fiveInts[4] = 9
 ```
@@ -135,7 +141,7 @@ h := Human{
   Age:  21,
   }
 h2 := Human{ Name: "Alex", Age: 16 }
-  
+
 // Display the struct (import "fmt")
 fmt.Printf("Name: %s", h.Name)
 ```
