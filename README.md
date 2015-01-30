@@ -16,9 +16,9 @@ func main() {
 
 ## Variables
 
-In general: `var var_name type = value`
+In general: `var varName type = value`
 
-Shorthand: `var_name := value`
+Shorthand: `varName := value`
 
 ```go
 var a int = 85
@@ -93,7 +93,7 @@ for i, num := range nums {
   }
 }
 
-// Use an underscore to tell the Go compiler you don't intend to use a variable
+// Use an underscore to tell the Go compiler you don't intend to use a variable.
 nums := []int{1, 2, 3}
 for _, num := range nums {
   fmt.Println(num)
